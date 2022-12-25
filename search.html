@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук</title>
+</head>
+
+<body>
+    <h1>Пошук</h1>
+    <nav>
+        <a href="authorisation.html">Авторизація</a>
+        <a href="index.html">Реєстрація</a>
+    </nav><br><br>
+    <form action="https://fom.in.ua/echo">
+        <label for="kind">Тип кузова</label>
+        <select name="kind" id="kind">
+            <option value="sedan">Седан</option>
+            <option value="universalis">Універсал</option>
+            <option value="minivan">Мінівен</option>
+            <option value="pickup">Пікап</option>
+            <option value="van">Фургон</option>
+            <option value="pabriolet">Кабріолет</option>
+        </select><br><br>
+
+
+        <label for="brand">Марка авто</label>
+        <select name="brand" id="brand">
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="ford">Ford</option>
+            <option value="lexus">Lexus</option>
+            <option value="toyota">Toyota</option>
+            <option value="kia">Kia</option>
+            <option value="mazda">Mazda</option>
+            <option value="opel">Opel</option>
+            <option value="renault">Renault</option>
+            <option value="skoda">Skoda</option>
+        </select><br><br>
+
+
+        <label for="country">Країна виробник</label>
+        <select name="country" id="country">
+            <option value="germany">Німеччина</option>
+            <option value="japan">Японія</option>
+            <option value="usa">США</option>
+            <option value="france">Франція</option>
+            <option value="china">Китай</option>
+            <option value="italy">Італія</option>
+            <option value="korea">Корея</option>
+            <option value="argentina">Аргентина</option>
+        </select><br><br>
+
+        <label for="quantity">Ціна від 2000 до 100000</label>
+        <input type="number" id="quantity" name="quantity" min="2000" max="100000">
+        <br><br>
+
+        <label for="years">Рік випуску</label>
+        <input type="date" id="years" name="years">
+        <br><br>
+
+
+        <p>Стан</p>
+        <input type="checkbox" id="condition1" name="condition1" value="new">
+        <label for="condition1">Нова</label><br>
+        <input type="checkbox" id="condition2" name="condition2" value="credit">
+        <label for="condition2"> У кредиті</label><br>
+        <input type="checkbox" id="condition3" name="condition3" value="notcleared">
+        <label for="condition3">Нерозмитненна</label><br>
+        <input type="checkbox" id="condition4" name="condition4" value="reconstruction">
+        <label for="condition4">Професійно відремонтовані пошкодження</label>
+        <br><br>
+
+        <p>Тип палива</p>
+        <input type="checkbox" id="diesel" name="diesel" value="diesel">
+        <label for="diesel">Дизель</label>
+        <input type="checkbox" id="petrol" name="petrol" value="petrol">
+        <label for="petrol">Бензин</label>
+        <input type="checkbox" id="gas" name="gas" value="gas">
+        <label for="gas">Газ</label>
+        <input type="checkbox" id="electric" name="electric" value="electric">
+        <label for="electric">Електро</label>
+        <br><br>
+
+        <p>Тип коробки передач</p>
+        <input type="checkbox" id="hand" name="hand" value="hand">
+        <label for="hand">Ручна/Механіка</label>
+        <input type="checkbox" id="auto" name="auto" value="auto">
+        <label for="auto">Автомат</label>
+        <br><br>
+
+        <label for="color">Колір</label>
+        <input type="color" id="color" name="color" value="#000000">
+        <br><br>
+
+        <p>Комфорт</p>
+        <input type="checkbox" id="comfort1" name="comfort1" value="hatch">
+        <label for="comfort1">Люк</label>
+        <input type="checkbox" id="comfort2" name="comfort2" value="leather">
+        <label for="comfort2">Шкіряний салон</label>
+        <input type="checkbox" id="comfort3" name="comfort3" value="aircon">
+        <label for="comfort3">Кондиціонер</label>
+        <input type="checkbox" id="comfort4" name="comfort4" value="hotseat">
+        <label for="comfort4">Підігрівач сидіння</label>
+        <input type="checkbox" id="comfort5" name="comfort5" value="audio">
+        <label for="comfort5">аудіосистема</label> <br>
+        <br><br>
+        <input type="submit" value="Пошук">
+
+
+
+    </form>
+
+</body>
+
+</html>
